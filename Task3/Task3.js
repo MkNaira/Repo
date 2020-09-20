@@ -1,38 +1,92 @@
- let code = parsefloat(prompt("enter the word with min lenght of 5 symbols"));
-if (code.length < = 5) {
+ let word = parsefloat(prompt("enter the word with min lenght of 5 symbols"));
+if (word.length < = 5) {
     alert("try again");
 
 } else {
 
-    alert ("code");
+    alert ("true");
 }
 
+let mynumber = 0;
 
-switch (code) {
+switch (word.chaAt(0)) {
 
 case "a";
-code = code + 4 ;
+mynumber = mynumber + 4;
 break;
 case "e";
-code = code + 4 ;
+mynumber = mynumber + 4;
 break;
 case "u";
-code = code + 4 ;
+mynumber = mynumber + 4;
 break;
 case "i";
-code = code + 4 ;
+mynumber = mynumber + 4;
 break;
 case "o";
-code = code + 4 ;
+mynumber = mynumber + 4;
 break;
 case "z";
-code = code + 5 ;
+mynumber = mynumber + 5;
 break;
 default;
-code = code - 1;
+mynumber = mynumber - 1;
 
 }
 
-alert("code");
+let mynumber1 = 0;
 
+switch (word.chaAt(1)) {
+
+case "a";
+mynumber1 = mynumber1 + 4;
+break;
+case "e";
+mynumber1 = mynumber1 + 4;
+break;
+case "u";
+mynumber1 = mynumber1 + 4;
+break;
+case "i";
+mynumber1 = mynumber1 + 4;
+break;
+case "o";
+mynumber1 = mynumber1 + 4;
+break;
+case "z";
+mynumber1 = mynumber1 + 5;
+break;
+default;
+mynumber1 = mynumber1 - 1;
+
+}
+
+let mynumber2 = 0;
+
+switch (word.chaAt(2)) {
+
+case "a";
+mynumber2 = mynumber2 + 4;
+break;
+case "e";
+mynumber2 = mynumber2 + 4;
+break;
+case "u";
+mynumber2 = mynumber2 + 4;
+break;
+case "i";
+mynumber2 = mynumber2 + 4;
+break;
+case "o";
+mynumber2 = mynumber2 + 4;
+break;
+case "z";
+mynumber2 = mynumber2 + 5;
+break;
+default;
+mynumber2 = mynumber2 - 1;
+
+}
+
+alert("mynumber + mynumber1 + mynumber2");
 
